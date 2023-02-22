@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 // import{BrowserRouter as Router} from 'react-router-dom'
 import { Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
-import HomeScreen from "./screens/homeScreen";
+import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 function App() {
   return (
