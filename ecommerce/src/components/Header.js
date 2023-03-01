@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container,Image } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import * as Icon from "react-bootstrap-icons";
@@ -10,7 +10,10 @@ const Header = () => {
       <Navbar bg="dark" variant="dark" collapseOnSelect expand="lg">
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>Expert Zone</Navbar.Brand>
+            <Navbar.Brand>
+              <Image src="/images/logo.png" width={70}  padding={5}></Image>
+              Expert Zone
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
