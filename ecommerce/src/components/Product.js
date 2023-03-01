@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import Rating from "./Rating";
 const Product = ({ product }) => {
-  console.log(product.numReviews);
+  // console.log(product.numReviews);
+  // image Dimensions  640width*510height
   return (
     <Card className="my-3 p-3 rounded">
       <Link to={`/props.product/${product._id}`}>

@@ -1,26 +1,24 @@
 // require("dotenv").config();
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
+import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 dotenv.config();
 import express from "express";
 import connectDb from "./config/db.js";
+import productRoutes from "./routes/productRoutes.js";
 connectDb();
 
 const app = express();
-import products from "./data/products.js";
+
 console.log(process.env.PORT);
 console.log(process.env.NODE_ENV);
 app.get("/", (req, res) => {
   res.send("API is running");
 });
+app.use("/api/products", productRoutes);
+app.use(notFound);
 
-app.get("/api/products", (req, res) => {
-  res.json(products);
-});
+app.use(errorHandler);
 
-app.get("/api/products/:id", (req, res) => {
-  const product = products.find((p) => p._id === req.params.id);
-  res.json(product);
-});
 const PORT = process.env.PORT || 5000;
 app.listen(
   PORT,
