@@ -16,6 +16,7 @@ import axios from "axios";
 // import products from "../products";
 // console.log(products)
 const ProductScreen = ({ match }) => {
+  console.log(match)
   // console.log(useParams());
   const { id } = useParams();
   //   const product = products.find((p) => String(p._id) === id);

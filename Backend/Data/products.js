@@ -20,8 +20,8 @@ const products = [
     category: "Electronics",
     price: 179.99,
     countInStock: 8,
-    rating: 0,
-    numReviews: 0,
+    rating: 5,
+    numReviews: 75,
   },
 
   {
@@ -33,8 +33,8 @@ const products = [
     category: "Electronics",
     price: 499.99,
     countInStock: 2,
-    rating: 0,
-    numReviews: 0,
+    rating: 4,
+    numReviews: 77,
   },
   {
     name: "Beats Solo Pro Wireless Noise Cancelling Headphones",
@@ -45,8 +45,8 @@ const products = [
     category: "Electronics",
     price: 299.99,
     countInStock: 5,
-    rating: 0,
-    numReviews: 0,
+    rating: 5,
+    numReviews: 39,
   },
 
   {
@@ -58,8 +58,8 @@ const products = [
     category: "Electronics",
     price: 249.99,
     countInStock: 2,
-    rating: 0,
-    numReviews: 0,
+    rating: 2,
+    numReviews: 66,
   },
 
   {
@@ -71,8 +71,8 @@ const products = [
     category: "Electronics",
     price: 349.99,
     countInStock: 7,
-    rating: 0,
-    numReviews: 0,
+    rating: 3,
+    numReviews: 26,
   },
 
   {
@@ -84,8 +84,8 @@ const products = [
     category: "Electronics",
     price: 129.99,
     countInStock: 4,
-    rating: 0,
-    numReviews: 0,
+    rating: 2,
+    numReviews: 17,
   },
 
   {
@@ -97,8 +97,8 @@ const products = [
     category: "Electronics",
     price: 199.99,
     countInStock: 6,
-    rating: 0,
-    numReviews: 0,
+    rating: 4,
+    numReviews: 75,
   },
 
   {
@@ -110,8 +110,8 @@ const products = [
     category: "Electronics",
     price: 299.99,
     countInStock: 2,
-    rating: 0,
-    numReviews: 0,
+    rating: 1,
+    numReviews: 39,
   },
 
   {
@@ -123,8 +123,8 @@ const products = [
     category: "Electronics",
     price: 2499.99,
     countInStock: 1,
-    rating: 0,
-    numReviews: 0,
+    rating: 2,
+    numReviews: 26,
   },
 
   {
@@ -136,8 +136,8 @@ const products = [
     category: "Electronics",
     price: 349.99,
     countInStock: 5,
-    rating: 0,
-    numReviews: 0,
+    rating: 4,
+    numReviews: 35,
   },
 
   {
@@ -149,8 +149,8 @@ const products = [
     category: "Electronics",
     price: 499.99,
     countInStock: 3,
-    rating: 0,
-    numReviews: 0,
+    rating: 5,
+    numReviews: 45,
   },
 
   {
@@ -162,8 +162,8 @@ const products = [
     category: "Electronics",
     price: 499.99,
     countInStock: 4,
-    rating: 0,
-    numReviews: 0,
+    rating: 4,
+    numReviews: 10,
   },
 
   {
@@ -175,8 +175,8 @@ const products = [
     category: "Electronics",
     price: 1799.99,
     countInStock: 2,
-    rating: 0,
-    numReviews: 0,
+    rating: 3,
+    numReviews: 14,
   },
 
   {
