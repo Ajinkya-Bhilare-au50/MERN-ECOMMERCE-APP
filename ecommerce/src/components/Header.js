@@ -7,11 +7,22 @@ import { LinkContainer } from "react-router-bootstrap";
 const Header = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" collapseOnSelect expand="lg">
+      <Navbar
+        bg=""
+        style={{ background: "#FC5185" }}
+        variant="dark"
+        collapseOnSelect
+        expand="lg"
+      >
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <Image src="/images/logo.png" width={70}  padding={5}></Image>
+              <Image
+                className="p-1"
+                src="/images/logo.png"
+                width={70}
+                padding={5}
+              ></Image>
               Expert Zone
             </Navbar.Brand>
           </LinkContainer>
