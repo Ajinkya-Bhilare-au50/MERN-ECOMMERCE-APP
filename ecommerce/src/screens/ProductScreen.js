@@ -19,7 +19,7 @@ import { listProductDetails } from "../actions/productActions";
 // import products from "../products";
 // console.log(products)
 const ProductScreen = ({ match }) => {
-  const [qty, setQty] = useState(0);
+  const [qty, setQty] = useState(1);
   const navigate = useNavigate();
   const dispatch = useDispatch();
   
