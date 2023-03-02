@@ -7,22 +7,22 @@ h3 {
 .rating span {
   margin: 0.1rem;
 }
-.simple {
+/* .simple {
   text-align: center;
   text-overflow: ellipsis;
   margin: 30px 15px;
   font-size: 18px;
-}
+} */
 .App {
   font-family: sans-serif;
   text-align: center;
 }
 
-.card-title {
+/* .card-title {
   font: 20px arial, sans-serif;
   text-align: left;
   padding: 0px 5px 5px 5px;
-}
+} */
 
 .card-container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
