@@ -1,5 +1,5 @@
 import React from "react";
-import { Container,Image } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import * as Icon from "react-bootstrap-icons";
@@ -35,8 +35,11 @@ const Header = () => {
                   Cart
                 </Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/SignUp">
+                <Nav.Link>Sign-Up</Nav.Link>
+              </LinkContainer>
               <LinkContainer to="/Login">
-                <Nav.Link>Sign In</Nav.Link>
+                <Nav.Link>Login</Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>
